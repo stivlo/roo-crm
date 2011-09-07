@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_org_obliquid_crm_domain_CartOrder" object="${cartorder}" path="/cartorders" z="UPUI8rzBsH8GIJzTzMeFXxptj3k=">
+        <field:display field="customerId" id="s_org_obliquid_crm_domain_CartOrder_customerId" object="${cartorder}" z="1BOqljxm/Nu+5KShoj0KWGRu4Aw="/>
+        <field:display date="true" dateTimePattern="${cartOrder_dateoforder_date_format}" field="dateOfOrder" id="s_org_obliquid_crm_domain_CartOrder_dateOfOrder" object="${cartorder}" z="lmnaQPpT45KG3ap0EgOODzwWjtg="/>
+    </page:show>
+</div>

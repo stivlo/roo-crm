@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_org_obliquid_crm_domain_Customer" idField="customerId" modelAttribute="customer" path="/customers" versionField="none" z="eLTAV4XzL8S6ti4bXC+feIBvotI=">
+        <field:simple field="cartOrders" id="c_org_obliquid_crm_domain_Customer_cartOrders" messageCode="entity_reference_not_managed" messageCodeAttribute="Cart Order" z="NlAX4jptXkRGapzc4UCt+5GTEOU="/>
+        <field:select field="companyId" id="c_org_obliquid_crm_domain_Customer_companyId" itemValue="companyId" items="${companys}" path="/companys" z="MuZn+0+rJYgRE2r7TsECl9iDk50="/>
+        <field:input field="lastName" id="c_org_obliquid_crm_domain_Customer_lastName" z="GOiwP5TgGNg3V6R50nG3Kfk8yEE="/>
+        <field:input field="firstName" id="c_org_obliquid_crm_domain_Customer_firstName" z="1GqZOrkmklNPWlEX1YWMKive81w="/>
+    </form:update>
+</div>

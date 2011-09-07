@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_org_obliquid_crm_domain_Product" object="${product}" path="/products" z="w+id8gpQpxch+94wfLYMvTRoTRM=">
+        <field:display field="name" id="s_org_obliquid_crm_domain_Product_name" object="${product}" z="pKxQWYRj5xzyzpoae61UxW5A1wc="/>
+        <field:display field="description" id="s_org_obliquid_crm_domain_Product_description" object="${product}" z="MuAhShs4rfbYRekqks1ppkrlMEI="/>
+        <field:display field="price" id="s_org_obliquid_crm_domain_Product_price" object="${product}" z="780uJbVkr52RN41GxCoco1Ue5ew="/>
+    </page:show>
+</div>

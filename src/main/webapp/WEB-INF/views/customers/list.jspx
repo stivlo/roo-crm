@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_org_obliquid_crm_domain_Customer" items="${customers}" z="4qVqX6HkIGZaba1r+mO3CC/f8KE=">
+        <table:table data="${customers}" id="l_org_obliquid_crm_domain_Customer" path="/customers" typeIdFieldName="customerId" z="OsQavJMaeFvnoywkp4OwDVZcBR8=">
+            <!--  table:column id="c_org_obliquid_crm_domain_Customer_cartOrders" property="cartOrders" z="eHZG2Q71lb5sXs/Y6B9h34uXRHo="/  -->
+            <table:column id="c_org_obliquid_crm_domain_Customer_companyId" property="companyId" z="ViHZxK/4TDdGFyA14koHv5Qt1uE="/>
+            <table:column id="c_org_obliquid_crm_domain_Customer_lastName" property="lastName" z="9Unfrzz3e2PMesapn/yabsysofM="/>
+            <table:column id="c_org_obliquid_crm_domain_Customer_firstName" property="firstName" z="OtcbH+jcPIDCiJ3Y1zljCpAyK6Q="/>
+        </table:table>
+    </page:list>
+</div>
